@@ -1,0 +1,189 @@
+body
+{
+  font-weight: 400;
+  text-align:center;
+}
+body,h1,h2,h3,h4,h5,h6
+{
+    font-family:'Montserrant';
+}
+
+p
+{
+   color:#8f8f8f;
+}
+
+.container-fluid{
+  padding:7% 15%;
+}
+
+
+/* Title Section */
+
+#title .container-fluid{
+  padding:3% 15% 7%;
+  text-align:left;
+}
+
+
+/* Navigation Bar */
+.navbar
+{padding: 0 0 4.5rem;}
+
+.navbar-brand
+{
+  font-family:'Ubuntu';
+  font-size:2.5rem;
+  font-weight:900;
+}
+.nav-link
+{
+  font-family:'Montserrant';
+  font-size:1.2rem;
+  font-weight:100;
+
+}
+.nav-item
+{padding: 0 18px;}
+
+/* Title Image */
+
+.phone
+{
+  width:20%;
+  transform: rotate(25deg);
+  position:absolute;
+  right:25%;
+}
+
+@media (max-width:1020px){
+
+  #title{text-align:center;}
+
+  .phone
+  {
+    width:60%;
+    position:static;
+    transform:rotate(0);
+
+
+
+  }
+}
+
+/* Pricing Section */
+
+#pricing
+{
+  padding:100px;
+}
+
+ .pricing-title{
+   font-size:1.5rem;
+   font-weight:900;
+   color:black;
+ }
+ .pricing-text{
+   font-size:3rem;
+   font-weight:900;
+   line-height:1.5;
+ }
+
+.pricing-cards
+{padding:3% 2%;}
+
+/* CARD GROUP */
+.card-group{display:flex;}
+.icon{
+  color:#ef8172;
+  margin-bottom:1rem;
+}
+
+.icon:hover
+{color:#ff4c68;}
+
+/* Feature Section */
+
+#features
+{
+  z-index:1;
+  position: relative;
+}
+
+.feature-box{
+  padding:5%;
+}
+.feature-title{
+  font-size:1.5rem;
+  font-weight:900;
+  color:black;
+}
+
+/* Testimonial Section & Press Section */
+
+#testimonials
+ {
+  background-color:#ef8172;
+
+ }
+
+.testimonial-text{
+  font-size:3rem;
+  font-weight:900;
+  line-height:1.5;
+}
+.testimonial-img{
+  border-radius:100%;
+  width:15%;
+  margin:20px;
+}
+.press-img{
+  width:12%;
+  margin:20px 20px 15px;
+}
+
+#press{
+  background-color:#ef8172;
+  padding-bottom:3%;
+}
+
+/* Headings Classes */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size:3.5rem;
+  font-weight:900;
+  line-height:1.5;
+}
+
+.section-heading{
+  font-size:3rem;
+  font-weight:900;
+  line-height:1.5;
+}
+
+/* Sections */
+.colored-section{
+  background-color:#ff4c68;
+  color:white;
+}
+
+.white-section{
+  background-color:#fff;
+}
+
+
+
+/* CTA Section */
+
+/* Download-Button */
+.down-button
+{
+  margin:5% 3% 5% 0;
+}
+
+.ctn-down{margin:5% 2.5% 5%;}
+
+/* Footer Section */
+
+.social-icon{margin:20px 10px;}
